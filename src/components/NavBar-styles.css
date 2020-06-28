@@ -1,0 +1,14 @@
+.container{
+  display:flex;
+}
+
+.brand-name{
+  font-family: Roboto;
+}
+
+.brand-name h1{
+  position:absolute;
+  margin:0.5rem;
+  padding:0;
+  color:#292d45;
+}

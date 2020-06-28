@@ -1,0 +1,48 @@
+
+
+.bill{
+  display:flex;
+}
+.bill-details{
+  flex:7;
+  margin: 1rem;
+  border: 1px solid grey;
+  border-radius: 1rem;
+  
+}
+.check-form{
+  display:block;
+  margin: 0 auto;
+  padding-left: 2.7rem;
+}
+
+.check-form label{
+  margin-left:0.5rem;
+}
+.bill-details table{
+  
+  width: 70%;
+  margin: 0 auto;
+}
+.bill-details form{
+  margin-left: 1rem;
+  font-size:1.2rem;
+  font-weight: 600;
+}
+
+.bill-details td:first-child{
+  font-size:1.2rem;
+  font-weight: 600;
+  
+}
+.print-bill{
+  flex:3;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.print-bill-btn{
+  padding: 1rem;
+
+}
