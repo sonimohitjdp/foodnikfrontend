@@ -1,0 +1,32 @@
+.menu{
+  margin-top: 1rem;
+  flex:2;
+  border-radius: 1rem;
+  padding: 1rem 0.5rem;
+  display:flex;
+  flex-direction: column;
+  box-shadow: -5px 5px 8px #888888; 
+  border: 1px solid grey;
+}
+
+.menu-btn{
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(93, 93, 196); 
+  color: white;
+  border-radius: 1rem;
+  font-family: Roboto;
+  font-size:1rem;
+  border: none;
+  box-shadow: -2px 4px 8px #888888;
+}
+.menu-btn:hover{
+  cursor:pointer;
+  background: rgb(55, 55, 207); ;
+}
+.menu-btn:focus{
+  outline: none;
+  border: none;
+  transform: translate(-2px,2px);
+  box-shadow: -0 0 8px #888888;
+}

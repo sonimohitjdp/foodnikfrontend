@@ -1,0 +1,27 @@
+
+.avail-item-btn{
+  width:90%;
+  margin:0.5rem;
+  padding: 0.7rem;
+  font-family: Roboto;
+  font-size:1rem;
+  background-color: #e7e7e7; 
+  color: black;
+  border: none;
+  box-shadow: -2px 4px 8px #888888;
+}
+.avail-item-btn:hover{
+  background-color: rgb(93, 93, 196); 
+  color: white;
+  cursor:pointer;
+  border-radius: 1rem;
+}
+.avail-item-name{
+  margin-bottom: 0.2rem;
+}
+.avail-item-price{
+  color:blue;
+}
+.avail-item-price:hover{
+  color:black;
+}

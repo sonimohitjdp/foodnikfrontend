@@ -8,6 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import "./NavBar-styles.css";
 import POS from "./POS/POS"
+import Admin from "./Admin/admin-tab"
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -66,15 +67,16 @@ export default function SimpleTabs() {
       <div className={classes.root}>
         <AppBar position="static">
           <Tabs value={value} onChange={handleChange} centered>
-            <Tab label="POS" {...a11yProps(0)} />
-            <Tab label="Admin" {...a11yProps(1)} />
+            <Tab label="Admin" {...a11yProps(0)} />
+            <Tab label="POS" {...a11yProps(1)} />
           </Tabs>
         </AppBar>
         <TabPanel value={value} index={0}>
-          <POS />
+          
+          <Admin />
         </TabPanel>
         <TabPanel value={value} index={1}>
-          Item Two
+          <POS />
         </TabPanel>
       </div>
     </div>
