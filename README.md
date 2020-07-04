@@ -1,16 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FoodNik is a web application for generating bills in a fast-food restaurant.
+The frontend is build on REACT along with little use of Material UI.
+FoodNik
 
-## Available Scripts
 
-In the project directory, you can run:
+### Admin Features
+    • Add new items
+    • Delete Previous items
+    • Update Previous items
+    • View availItems and orders tables
+    • Stats for Admin
 
-### `yarn start`
+### Stats for Admin
+    1. Most sold item
+    2. Today’s Business
+    3. Peak Business – date & amount
+    4. Graph showing business done in last 10 days (highs and lows)
+    5. Favourite Food in morning, afternoon, night
+
+### React related info-
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
 ### `yarn test`
 
