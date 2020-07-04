@@ -72,11 +72,11 @@ export default function SimpleTabs() {
           </Tabs>
         </AppBar>
         <TabPanel value={value} index={0}>
+        <Admin />
           
-          <Admin />
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <POS />
+        <POS />
         </TabPanel>
       </div>
     </div>

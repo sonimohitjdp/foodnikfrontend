@@ -1,0 +1,63 @@
+.insert-item-background{
+  height: 80vh;
+  background: #fff url('./fries-photo.jpg') no-repeat center center/cover;
+}
+.insert-item{
+  background: rgb(0,0,0,0.4);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insert-item-form{
+  background: rgb(255,255,255,0.6);
+  border-radius: 1rem;
+  padding: 3.5rem 4.5rem 4.5rem 3.5rem;
+  height: 60%;
+}
+.new-item-id-text{
+  display: inline;
+}
+.new-item-id{
+  color: rgb(93, 93, 196);
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  width: 3rem;
+  text-align: center;
+}
+
+.item-form-label{
+  display: block;
+  margin-top: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.item-form-input{
+  margin-top: 0.3rem;
+  display:block;
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+.item-form-input:focus{
+  border: 2px solid rgb(93, 93, 196);;
+  outline:none;
+}
+
+.insert-item-btn{
+  display: block;
+  margin: 3rem auto;
+  padding: 0.5rem 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.insert-item-btn:hover{
+  background: rgb(93, 93, 196); 
+  color: white;
+}

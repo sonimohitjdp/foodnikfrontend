@@ -4,10 +4,10 @@ export default function Menu()
 {
   return(
     <div className="menu">
-      <button className="menu-btn">View Records</button>
-      <button className="menu-btn">Insert Item</button>
-      <button className="menu-btn">Delete Item</button>
-      <button className="menu-btn">View Stats</button>
+      <a className="menu-btn" href="/admin/availableitems">Available Items</a>
+      <a className="menu-btn" href="/admin/orders">Orders Placed</a>
+      <a className="menu-btn" href="/admin/insertitem">Insert Item</a>
+      <a className="menu-btn" href="/admin/viewstats">View Stats</a>
     </div>
   )
 }

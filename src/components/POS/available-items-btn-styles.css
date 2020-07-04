@@ -16,11 +16,10 @@
   cursor:pointer;
   border-radius: 1rem;
 }
-.avail-item-name{
-  margin-bottom: 0.2rem;
-}
+
 .avail-item-price{
   color:blue;
+  display:inline;
 }
 .avail-item-price:hover{
   color:black;

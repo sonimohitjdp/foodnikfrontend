@@ -4,7 +4,7 @@ when targeted directly, width is full 100% */
 table{
   width:100%;
 }
-.cart-items{
+.cart-items-table{
   height:70%;
   overflow: scroll;
 }
@@ -34,13 +34,12 @@ table{
 }
 .cart-items-tr:hover {background-color: #f5f5f5;}
 
-tr td button:first-child{
+.cart-items-qleft{
   padding: 0 0.2rem;
   margin: 0 0.5rem 0 0;
 }
-tr td button:last-child{
+.cart-items-qright{
   padding: 0 0.2rem;
   margin: 0 0 0 0.5rem;
 }
-
 

@@ -7,7 +7,7 @@ export default function AdminSection()
   return(
     <div className="admin-section">
       <Menu />
-      <Content />
+      <Content />  
     </div>
   )
 }

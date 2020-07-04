@@ -1,0 +1,43 @@
+.view-rec{
+  height:100%;
+  overflow: scroll;
+}
+.view-rec > table{
+  width:100%;
+}
+
+.view-rec-table{
+
+  border-collapse: collapse;
+}
+.view-rec-table,.view-rec-td,.view-rec-th{
+  text-align:center;
+}
+
+.view-rec-th{
+  background-color: #5e34eb;
+  color: white;
+}
+.view-rec-th:first-child{
+  border-top-left-radius: 1rem;
+}
+.view-rec-th:last-child{
+  border-top-right-radius: 1rem;
+}
+.view-rec-th{
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+.view-rec-td
+{
+  padding: 0.5rem;
+}
+.view-rec-tr:hover {background-color: #c0c0c0;}
+
+.view-rec-trash-btn
+{
+  cursor: pointer;
+   padding: 1rem;
+  background:  url('https://image.flaticon.com/icons/svg/3003/3003702.svg') no-repeat center center/contain;
+  border:none;
+}

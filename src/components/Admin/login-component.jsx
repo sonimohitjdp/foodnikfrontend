@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./login-component-styles.css";
 export default function LoginComponent() {
   
