@@ -1,5 +1,4 @@
-FoodNik is a web application for generating bills in a fast-food restaurant.
-The frontend is build on REACT along with little use of Material UI.
+FoodNik is a web application for generating bills in a fast-food restaurant. <br />The frontend is build on REACT along with little use of Material UI.
 FoodNik
 
 
