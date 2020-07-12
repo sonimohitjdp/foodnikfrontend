@@ -1,13 +1,15 @@
 import React from "react"
+import {Link} from "react-router-dom"
 import "./menu-styles.css"
 export default function Menu()
 {
   return(
     <div className="menu">
-      <a className="menu-btn" href="/admin/availableitems">Available Items</a>
-      <a className="menu-btn" href="/admin/orders">Orders Placed</a>
-      <a className="menu-btn" href="/admin/insertitem">Insert Item</a>
-      <a className="menu-btn" href="/admin/viewstats">View Stats</a>
+      <Link className="menu-btn" to="/admin/availableitems">Available Items</Link>
+      <Link className="menu-btn" to="/admin/orders">Orders Placed</Link>
+      <Link className="menu-btn" to="/admin/insertitem">Insert Item</Link>
+      <Link className="menu-btn" to="/admin/updateitem">Update Item</Link>
+      <Link className="menu-btn" to="/admin/viewstats">View Stats</Link>
     </div>
   )
 }

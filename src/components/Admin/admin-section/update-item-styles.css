@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+.update-item-background{
+  height: 80vh;
+  background: #fff url('./fries-photo.jpg') no-repeat center center/cover;
+}
+.update-item{
+  background: rgb(0,0,0,0.4);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.update-item-form{
+  background: rgb(255,255,255,0.6);
+  border-radius: 1rem;
+  padding: 2.5rem 4.5rem 4.5rem 3.5rem;
+  height: 70%;
+  display:flex;
+  flex-direction: column;
+}
+
+.update-form-div{
+  display:flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  align-items: baseline;
+
+}
+
+.update-form-label{
+  margin-right: 3.5rem;
+  color: rgb(28, 14, 107);
+  font-size: 1.3rem;
+  font-family: 'Roboto Slab', serif;
+}
+.update-form-info{
+  text-align:center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.3rem;
+  color: rgb(19, 9, 75);
+  text-decoration: underline;
+
+}
+.update-form-divider{
+  margin-top: 0.7rem;
+  margin-bottom: 0.1rem;
+}
+.update-form-input{
+  margin-top: 0.3rem;
+  display:block;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  text-align:center;
+}
+.update-form-select{
+  /* font-size:1rem; */
+  text-align-last:center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 1rem;
+}
+.update-item-btn{
+  display: block;
+  margin: 3rem auto;
+  padding: 0.5rem 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.update-item-btn:hover{
+  background: rgb(93, 93, 196); 
+  color: white;
+}
+/* 
+.item-form-input{
+  margin-top: 0.3rem;
+  display:block;
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+.item-form-input:focus{
+  border: 2px solid rgb(93, 93, 196);;
+  outline:none;
+}
+
+
+ */
