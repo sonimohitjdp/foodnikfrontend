@@ -1,6 +1,12 @@
-import React from "react";
+import React,{useState} from "react";
 import "./bill-component-styles.css";
-export default function Bill() {
+export default function Bill(props) {
+  var [total, setTotal] = useState(0);
+  props.cartItems.map(
+    (item)=>(
+      setTotal(total+item.price)
+    ))
+    console.log("Current total is: "+total)
   return (
     <div class="bill">
       <div className="bill-details">
@@ -14,8 +20,8 @@ export default function Bill() {
             <td>7.00</td>
           </tr>
           <tr>
-            <td>Total</td>
-            <td>7.00</td>
+            <td>Total</td> 
+            <td>{total}</td>
           </tr>
           <tr>
             <td>Discount</td>

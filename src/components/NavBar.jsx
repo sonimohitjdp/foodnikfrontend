@@ -58,7 +58,6 @@ export default function SimpleTabs() {
     setValue(newValue);
   };
 
-  
   return (
     <div className="container" >
         <div className="brand-name" >
@@ -67,16 +66,15 @@ export default function SimpleTabs() {
       <div className={classes.root}>
         <AppBar position="static">
           <Tabs value={value} onChange={handleChange} centered>
-            <Tab label="Admin" {...a11yProps(0)} />
-            <Tab label="POS" {...a11yProps(1)} />
+            <Tab label="POS" {...a11yProps(0)} />
+            <Tab label="Admin" {...a11yProps(1)} />
           </Tabs>
         </AppBar>
-        <TabPanel value={value} index={0}>
-        <Admin />
-          
+        <TabPanel value={value} index={0}>   
+          <POS />
         </TabPanel>
         <TabPanel value={value} index={1}>
-        <POS />
+          <Admin />
         </TabPanel>
       </div>
     </div>

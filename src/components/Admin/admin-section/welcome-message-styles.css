@@ -1,0 +1,23 @@
+.welcome-message-back{
+  background: url('https://www.frankartglobal.com/wp-content/uploads/2019/08/most-profitable.jpeg') center center/contain;
+  height: 100%;
+}
+
+.welcome-message-front{
+  background: rgb(0,0,0,0.4);
+  height: 100%;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.welcome-message-front h1{
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+.welcome-message-front p{
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px #000000;
+}
